@@ -1,0 +1,30 @@
+.header{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 20px;
+  background-color: #f8f9fa;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.logolight{
+  border-radius: 50%;
+}
+
+/* Navigation Link Styles */
+.header a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.header a:hover {
+  opacity: 0.8;
+  transform: translateY(-1px);
+}
+
+.header a.active p {
+  color: #007bff;
+  font-weight: bold;
+}
